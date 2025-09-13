@@ -6,7 +6,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  /* background-color: #242424; */
+  /* background-color: #0f1117; */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -68,6 +68,14 @@ button:focus-visible {
   } html[data-theme="light"] .hero-photo {
   background: #f0f0f0; /* Light background for light theme */
 }
+
+
+
+
+
+
+
+
 
 /* Scroll behavior */
 html {
