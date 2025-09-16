@@ -11,7 +11,7 @@ export const profile = {
     "I design thoughtful user experiences and build dependable systems end‑to‑end. My work blends performance‑minded React, secure Node/Express APIs, and real‑time features—shipped with a clean aesthetic and subtle motion.",
   projects: [
     {
-      src:"src/assets/images/chat-me.png",
+      src:"/chat-me.png",
       name: "Chat-Me App – Real-Time Group Chat",
       period: "Aug 2025 - Sep 2025",
       stack: "React, Node.js, Express.js, MongoDB, Socket.IO",
@@ -22,7 +22,7 @@ export const profile = {
       ],
     },
     {
-      src:"src\\assets\\images\\thirtysix.png",
+      src:"/thirtysix.png",
       name: "Thirty-Six Studio – Creative Agency Website",
       period: "May 2025 - May 2025",
       stack: "React, GSAP",
@@ -33,7 +33,7 @@ export const profile = {
       ],
     },
     {
-      src:"src\\assets\\images\\anzoo.png",
+      src:"/anzoo.png",
       name: "Anzo – Multipage React Website with 3D Animations",
       period: "Apr 2025 - May 2025",
       stack: "React, GSAP",
@@ -44,7 +44,7 @@ export const profile = {
       ],
     },
     {
-      src:"src\\assets\\images\\uber-app.png",
+      src:"/uber-app.png",
       name: "Uber – Ride Booking App (Full-Stack Prototype)",
       period: "Feb 2025 - Apr 2025",
       stack: "Express.js, MongoDB, JWT",
