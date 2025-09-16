@@ -1,12 +1,16 @@
 import { profile } from '../data/profile'
 import { useReveal } from '../hooks/useReveal'
+import ProfilePic from "../assets/images/profile-pic.png"
 
 
 export default function Home() {
+  console.log("hello world");
   useReveal()
   return (
     <section id="home" className="hero reveal">
       <div className="hero-text">
+
+
         <h1 className="display">{profile.name}</h1>
         <p className="subtitle">{profile.title}</p>
         <p className="summary">{profile.summary}</p>
@@ -19,7 +23,8 @@ export default function Home() {
       <div className="hero-media">
         <img
           className="hero-photo"
-          src="src\assets\images\profile-pic.png"
+          // src={ProfilePic}
+          src='/profile-pic.png'
           alt="Vishal-portrait"
         />
       </div>
