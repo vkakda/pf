@@ -11,7 +11,7 @@ export const profile = {
     "I design thoughtful user experiences and build dependable systems end‑to‑end. My work blends performance‑minded React, secure Node/Express APIs, and real‑time features—shipped with a clean aesthetic and subtle motion.",
   projects: [
     {
-      src:"src\\assets\\images\\chat-me.png",
+      src:"src/assets/images/chat-me.png",
       name: "Chat-Me App – Real-Time Group Chat",
       period: "Aug 2025 - Sep 2025",
       stack: "React, Node.js, Express.js, MongoDB, Socket.IO",
