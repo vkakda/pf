@@ -13,7 +13,7 @@ export default function Home() {
         <p className="subtitle">{profile.title}</p>
         <p className="summary">{profile.summary}</p>
         <div className="cta-row">
-          <a className="btn primary" href="/projects#projects">View Projects</a>
+          <a className="btn primary" href="#projects">View Projects</a>
           <a className="btn ghost" href={profile.github} target="_blank">GitHub</a>
           <a className="btn ghost cv" href={profile.resume} target="_blank">Resume</a>
         </div>
