@@ -4,6 +4,7 @@ export const profile = {
   location: "Muzaffarnagar, UP, India",
   email: "vjcse12@gmail.com",
   github: "https://github.com/vkakda",
+  insatgram: "https://www.instagram.com/visualcodecraft",
   linkedin: "https://www.linkedin.com/in/vishal-kaushik-891653261?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   medium: "https://vishalkakda.medium.com/",
   resume:"https://drive.google.com/file/d/1v8AncnHsYzXRIXlwDp0xTawN_RTROVvc/view?usp=drive_link",
