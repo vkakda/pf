@@ -15,22 +15,20 @@
 }
 
 /*  scroll progress bar */
-.scroll-progress-container {
+
+.scroll-progress-bar {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  /* right: 0; */
   height: 3px;
-  background: transparent;
+  width: 100%;
+  /* background-color: rgb(179, 10, 231); */
+  transition: scaleX 0.05s ease-out;
+  background: linear-gradient(90deg, #00c6ff, #0072ff);
+  transform-origin: left;
+  will-change: transform;
   z-index: 9999;
-  pointer-events: none;
-}
-
-.scroll-progress-bar {
-  height: 100%;
-  width: 0%;
-  background-color: rgb(179, 10, 231);
-  transition: width 0.1s ease-out;
 }
 
 
