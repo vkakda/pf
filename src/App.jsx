@@ -5,10 +5,12 @@ import Home from './pages/Home'
 import Projects from './pages/Projects'
 import Skills from './pages/Skills'
 import Contact from './pages/Contact'
+import ScrollProgress from './pages/ScrollProgress'
 
 function App() {
   return (
     <div className="site">
+      <ScrollProgress />
       <Navbar />
       <Home />
       <Projects />

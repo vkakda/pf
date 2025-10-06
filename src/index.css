@@ -14,6 +14,27 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+/*  scroll progress bar */
+.scroll-progress-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: transparent;
+  z-index: 9999;
+  pointer-events: none;
+}
+
+.scroll-progress-bar {
+  height: 100%;
+  width: 0%;
+  background-color: rgb(179, 10, 231);
+  transition: width 0.1s ease-out;
+}
+
+
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -65,14 +86,11 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
   
-  } html[data-theme="light"] .hero-photo {
+  } 
+  
+  html[data-theme="light"] .hero-photo {
   background: #f0f0f0; /* Light background for light theme */
 }
-
-
-
-
-
 
 
 
