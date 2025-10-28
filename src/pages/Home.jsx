@@ -11,7 +11,7 @@ export default function Home() {
       <div className="hero-text">
 
 
-        <h1 className="display"><span className="intro-text">Hi I'm </span>
+        <h1 className="display"><span className="intro-text">Hi, I'm </span>
         {profile.name}</h1>
         <p className="subtitle font-bold"><Typewriter
                 words={[
