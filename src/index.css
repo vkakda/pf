@@ -10,7 +10,7 @@
   font-style: normal;
 }
 
-.nav, .theme-toggle,.pbody{
+.nav, .theme-toggle,.pbody,.subtitle{
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
@@ -32,9 +32,6 @@
 .summary{
   max-width: 600px;
 }
-
-
-
 
 .brand{
   font-family: "Audiowide", sans-serif;
@@ -222,35 +219,23 @@ a:hover {
   color: inherit;
 }
 
-#home{
+
+
+.hero {
   position: relative;
   display: grid;
   grid-template-columns: 2fr 1fr;
- 
   align-items: center;
-  min-height: 70vh;
-  gap: 1rem;
-}
-
-/* .hero {
-  position: relative;
-  display: grid;
-  grid-template-columns: 1.2fr 1fr;
-  align-items: center;
+  padding-left: 20px;
   min-height: 70vh;
   gap: 2rem;
-} */
+}
+
 
 .hero-text h1 {
   font-size: 3rem;
   margin: 0 0 0.5rem;
 }
-
-.hero-text {
-  margin-left: 2rem;
-}
-
-
 .display {
   font-size: clamp(2.6rem, 6vw, 4.2rem);
   font-weight: 900;
@@ -557,8 +542,10 @@ a:hover {
 @media (max-width: 900px) {
   .hero {
     grid-template-columns: 1fr;
-    padding: 0 1rem; /* Add padding to prevent content from touching edges */
+    padding: 0 1rem;
   }
+
+
   .hero-shapes {
     order: -1;
     height: 200px;
@@ -601,6 +588,7 @@ a:hover {
   }
   
   .hero {
+    margin-top: -50px;
     padding: 0 1.5rem; /* Ensure equal spacing for the hero section */
   }
 
