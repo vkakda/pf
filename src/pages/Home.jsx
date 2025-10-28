@@ -17,17 +17,14 @@ export default function Home() {
                 words={[
   'MERN Full-Stack Developer',
   'Web Application Developer',
+  
   'AI Enthusiast',
   'Creative Frontend Designer',
-  'Digital Storyteller',
   'React.js Developer',
-  'Node.js & Express Developer',
-  'MongoDB Specialist',
-  'Tailwind CSS & Modern UI',
-  'Building Scalable Web Experiences',
   'Turning Ideas into Code',
-  'Crafting Interactive Interfaces',
-  'Driven by Simplicity, Inspired by Depth'
+  'Crafting Interactive UI',
+  "A Writer",
+  'Digital Storyteller'
 ]}
 
                 loop={0}
