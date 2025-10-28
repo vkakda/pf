@@ -1,3 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Orbitron&family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Manrope:wght@200..800&family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+.display {
+  font-family: "ubuntu", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.nav, .theme-toggle,.pbody{
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.subtitle{
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: #cd163c; 
+}
+
+ html[data-theme="dark"] .subtitle {
+  color:#e3aa16 ;
+}
+
+.summary{
+  max-width: 600px;
+}
+
+
+
+
+.brand{
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.intro-text {
+  font-family:  "sans-serif";
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.hero-text,.section {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
 :root {
   font-family: Inter, ui-sans-serif, system-ui, Avenir, Helvetica, Arial,
     sans-serif;
@@ -164,23 +222,47 @@ a:hover {
   color: inherit;
 }
 
-.hero {
+#home{
+  position: relative;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+ 
+  align-items: center;
+  min-height: 70vh;
+  gap: 1rem;
+}
+
+/* .hero {
   position: relative;
   display: grid;
   grid-template-columns: 1.2fr 1fr;
   align-items: center;
   min-height: 70vh;
   gap: 2rem;
-}
+} */
+
 .hero-text h1 {
   font-size: 3rem;
   margin: 0 0 0.5rem;
 }
+
+.hero-text {
+  margin-left: 2rem;
+}
+
+
 .display {
   font-size: clamp(2.6rem, 6vw, 4.2rem);
   font-weight: 900;
   letter-spacing: 0.4px;
 }
+.display .intro-text {
+  font-size: clamp(1rem, 2.5vw, 1.4rem); /* smaller and responsive */
+  font-weight: 400;
+  opacity: 0.8;
+  line-height: 1;
+}
+
 .subtitle {
   opacity: 0.85;
   margin: 0 0 1rem;
